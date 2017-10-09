@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlgeriaArabicPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="AlgeriaFrenchPgUrl" xml:space="preserve">
+    <value>http://qa.ef.dz/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="ArgentinaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.ar/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="AustriaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.at/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="BelgiumDutchPgUrl" xml:space="preserve">
+    <value>http://qa.ef.be/nl/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="BelgiumFrenchPgUrl" xml:space="preserve">
+    <value>http://qa.ef.be/fr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="BrazilPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.br/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="CanadaFrPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/cafr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="CanadaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/ca/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="ChilePgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ChinaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.cn/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="ColombiaPgUrl" xml:space="preserve">
+    <value>http://www.ef.com.co/pg/brochure/v4/?p=ilc</value>
+  </data>
+  <data name="CroatiaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/ca/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="CzechRepublicPgUrl" xml:space="preserve">
+    <value>http://qa.ef-czech.cz/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="DenmarkPgUrl" xml:space="preserve">
+    <value>http://qa.ef-danmark.dk/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="EcuadorPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.ec/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="EstoniaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="FinlandPgUrl" xml:space="preserve">
+    <value>No Url</value>
+  </data>
+  <data name="FinlandSwedPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="FrancePgUrl" xml:space="preserve">
+    <value>http://qa.ef.fr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="GermanyPgUrl" xml:space="preserve">
+    <value>http://qa.ef.de/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="GreecePgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/ca/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="HongKongPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.hk/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="HungaryPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.hu/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="IrelandPgUrl" xml:space="preserve">
+    <value>http://qa.ef-ireland.ie/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="KazakhstanPgUrl" xml:space="preserve">
+    <value>http://qa.ef.kz/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="KoreaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.kr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="LipyaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.ly/fp/brochure/v4/?p=</value>
+  </data>
+  <data name="LitchensteinPgUrl" xml:space="preserve">
+    <value>http://qa.efswiss.ch/de/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="LuxembourgPgUrl" xml:space="preserve">
+    <value>http://qa.ef-luxemburg.lu/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="MacauPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.hk/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="MexicoPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.mx/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="NetherlandsPgUrl" xml:space="preserve">
+    <value>http://qa.ef.nl/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="NewZealandPgUrl" xml:space="preserve">
+    <value>http://qa.ef.no/fp/brochure/v4/?p=</value>
+  </data>
+  <data name="NorwayPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanamaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.pa/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="PeruPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.pe/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="PolandPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PortugalPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RussiaPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaudiArabiaArabicPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaudiArabiaEnglishPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="SingaporePgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SlovakiaPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SlovenijaPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SpainPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.es/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="SwedenPgUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SwitzerlandFrenchPgUrl" xml:space="preserve">
+    <value>http://qa.efswiss.ch/fr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="SwitzerlandGermanyPgUrl" xml:space="preserve">
+    <value>http://qa.efswiss.ch/de/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="SwitzerlandItalianPgUrl" xml:space="preserve">
+    <value>http://qa.efswiss.ch/it/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="TaiwanPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.tw/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="ThaiPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.th/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="TunesiaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.tn/fp/brochure/v4/?p=</value>
+  </data>
+  <data name="TurkeyPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.tr/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="UnitedArabEmiratesEnglishPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="UnitedArabEmiratesPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.ae/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="UnitedKingdomPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.uk/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="UnitedStatesPgUrl" xml:space="preserve">
+    <value>http://qa.ef.edu/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="UruguayPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.uy/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="VenezuelaPgUrl" xml:space="preserve">
+    <value>http://qa.ef.co.ve/pg/brochure/v4/?p=</value>
+  </data>
+  <data name="VietnamPgUrl" xml:space="preserve">
+    <value>http://qa.ef.com.vn/pg/brochure/v4/?p=</value>
+  </data>
+</root>

@@ -1,0 +1,14 @@
+[INFO  2017-08-14T15:05:16,691 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2017-08-14T15:05:16,771 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2017-08-14T15:05:16,864 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2017-08-14T15:05:17,981 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[INFO  2017-08-14T15:05:20,572 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2017-08-14T15:05:20,642 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-16) Proxy listening with TCP transport 
+[INFO  2017-08-14T15:05:21,050 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-16) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[INFO  2017-08-14T15:05:39,501 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-20) Shutting down proxy server gracefully 
+[INFO  2017-08-14T15:05:39,505 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-20) Closing all channels (graceful) 
+[INFO  2017-08-14T15:05:39,574 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-4) (CONNECTING) [id: 0x473c788e]: Connection to upstream server failed java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose()(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2017-08-14T15:05:39,588 org.littleshoot.proxy.impl.ServerGroup] (qtp1516126132-20) Shutting down server group event loops (graceful) 
+[INFO  2017-08-14T15:05:41,896 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1516126132-20) Done shutting down proxy server 
